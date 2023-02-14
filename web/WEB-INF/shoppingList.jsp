@@ -13,6 +13,11 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <p>Hello ${sessionusername.username}</p>
+        <p>Hello, ${sessionusername.username}</p>
+        
+        <form>
+            <h2>List</h2>
+            Add Item: <input type="text" name="shoppingInput">
+        </form>
     </body>
 </html>
